@@ -3,7 +3,10 @@ import java.io.*;
 public class LeerFichTexto3 {
     public static void main(String[] args) {
         try {
-            BufferedReader fichero = new BufferedReader(new FileReader("C:\\Users\\Hezitzaile\\Desktop\\Prueba2.txt"));
+            //Directorio Windows
+            //BufferedReader fichero = new File("C:\\Users\\Hezitzaile\\Desktop\\prueba2.txt");
+            //Directorio OSX
+            BufferedReader fichero = new BufferedReader(new FileReader("//Users//jokin//Documents//Egibide//AD//Prueba2.txt"));
 
             String linea;
 

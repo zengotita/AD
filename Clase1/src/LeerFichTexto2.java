@@ -2,7 +2,10 @@ import java.io.*;
 
 public class LeerFichTexto2   {
     public static void main(String[] args) throws IOException {
-        File fichero = new File("C:\\Users\\Hezitzaile\\Desktop\\Prueba2.txt");
+        //Directorio Windows
+        //File fichero = new File("C:\\Users\\Hezitzaile\\Desktop\\prueba2.txt");
+        //Directorio OSX
+        File fichero = new File("//Users//jokin//Documents//Egibide//AD//Prueba2.txt");
 
         //declarar fichero
         FileReader fic = new FileReader(fichero); //crear el flujo de entrada
