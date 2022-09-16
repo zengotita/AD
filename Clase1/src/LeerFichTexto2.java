@@ -12,7 +12,7 @@ public class LeerFichTexto2   {
 
         int i;
 
-        char b[] = new char[20];
+        char b[] = new char[5];
         while ((i = fic.read(b)) != -1){
         System.out.println(b);
         }
