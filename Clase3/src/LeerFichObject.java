@@ -4,7 +4,7 @@ public class LeerFichObject {
     public static void main(String[] args) throws IOException, ClassNotFoundException {
         ///////// 1 \\\\\\\\\\
         //Objeto File
-        File fichero = new File(".\\ficheros\\FichPersona.dat");
+        File fichero = new File(".//ficheros//FichPersona.dat");
         //Flujo de entrada
         FileInputStream filein = new FileInputStream(fichero);
         //Conecta el flujo de bytes al flujo de datos
@@ -28,8 +28,8 @@ public class LeerFichObject {
         }
         /////////*** 2 ***\\\\\\\\\\
         //Mismo paso pero con el método available
-       /* System.out.println(objectIS.available());
-        try {
+        //System.out.println(objectIS.available());
+        /*try {
             while (objectIS.available() < 0) {
 
                 Persona persona = (Persona) objectIS.readObject();

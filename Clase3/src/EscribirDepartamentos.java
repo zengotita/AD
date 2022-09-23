@@ -3,7 +3,7 @@ import java.io.*;
 public class EscribirDepartamentos {
     public static void main(String[] args) throws IOException {
         //Objeto File
-        File fichero = new File(".\\ficheros\\Departamentos.dat");
+        File fichero = new File(".//ficheros//Departamentos.dat");
         //Flujo de salida
         FileOutputStream fileout = new FileOutputStream(fichero);
         //Conecta el flujo de bytes al flujo de datos
