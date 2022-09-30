@@ -2,7 +2,7 @@ import java.io.*;
 
 public class EscribirFichAleatorio {
     public static void main(String[] args) throws IOException {
-        File fichero = new File(".\\ficheros\\AleatorioEmple.dat");
+        File fichero = new File(".//ficheros//AleatorioEmple.dat");
         //Declaramos el fichero de acceso aleatorio
         RandomAccessFile file = new RandomAccessFile(fichero, "rw");
 
@@ -26,7 +26,7 @@ public class EscribirFichAleatorio {
             buffer.setLength(10); //Dejamos 10 caracteres para el apellido
             //buffer.toString se usa para decodificar el string
             file.writeChars(buffer.toString()); //Insertamos el apellido
-            //file.writeUTF(apellido[i]); //--> No estaría bien, no escribe el número de bytes que deseamos
+            //file.writeUTF(arrayApellido[i]); //--> No estaría bien, no escribe el número de bytes que deseamos
             file.writeInt(dep[i]); //Insertamos el departamento
             file.writeDouble(salario[i]); //Insertamos salario
 
