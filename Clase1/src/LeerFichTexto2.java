@@ -5,15 +5,13 @@ public class LeerFichTexto2   {
         //Directorio Windows
         //File fichero = new File("C:\\Users\\Hezitzaile\\Desktop\\prueba2.txt");
         //Directorio OSX
-        File fichero = new File("//Users//jokin//Documents//Egibide//AD//Prueba2.txt");
+        File fichero = new File("Clase1/src/Prueba.txt");
 
         //declarar fichero
         FileReader fic = new FileReader(fichero); //crear el flujo de entrada
 
-        int i;
-
-        char b[] = new char[5];
-        while ((i = fic.read(b)) != -1){
+        char b[] = new char[10];
+        while ((fic.read(b)) != -1){
         System.out.println(b);
         }
 
