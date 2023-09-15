@@ -3,7 +3,7 @@ import java.io.*;
 public class EscribirFichData {
     public static void main (String[] args) throws IOException {
         //1.- Declarar fichero
-        File fichero = new File (".\\ficheros\\FichData.dat");
+        File fichero = new File ("Clase2/src/FichData.dat");
         //2.- Crear el flujo de salida
         FileOutputStream fileout = new FileOutputStream(fichero);
         //3.- Inicializar clase para escribir datos primitivos: DataOutputStream

@@ -3,7 +3,7 @@ import java.io.*;
 public class EscribirLeerFichBytes {
     public static void main(String[] args) throws IOException {
         //1. Clase file
-        File fichero = new File(".//ficheros//FichBytes.dat");
+        File fichero = new File("Clase2/src/FichBytes.dat");
         //2. Creamos flujo de salida hacia el fichero
         FileOutputStream fileout = new FileOutputStream(fichero);
         //3. Crea flujo de entrada

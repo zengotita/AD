@@ -3,7 +3,7 @@ public class LeerFichData {
     public static void main(String[] args) throws IOException {
 
         //1
-        File fichero = new File(".//ficheros//FichData.dat"); //Fichero escrito con EscribirFichData.java
+        File fichero = new File("Clase2/src/FichData.dat"); //Fichero escrito con EscribirFichData.java
         FileInputStream filein = new FileInputStream(fichero);
         DataInputStream dataIS = new DataInputStream(filein);
 

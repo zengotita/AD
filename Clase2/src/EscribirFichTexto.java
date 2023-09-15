@@ -5,7 +5,7 @@ public class EscribirFichTexto {
         //1.- Declarar fichero
         File fichero = new File("Clase2/src/FichTexto.txt");
         //2.- Crear el flujo de salida
-        FileWriter fic = new FileWriter(fichero);
+        FileWriter fic = new FileWriter(fichero, true);
         //3.- Creamos cadena que escribiremos en el fichero "FichTexto.txt"
         String cadena ="Esto es una prueba con FileWriter";
         //4.- En este caso iremos escribiendo carácter a carácter
