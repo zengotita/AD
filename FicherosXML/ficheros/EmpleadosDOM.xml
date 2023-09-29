@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<Empleados>
+<EmpleadosDOM>
     <empleado>
         <id>1</id>
         <apellido>SUAREZ</apellido>
@@ -42,4 +42,4 @@
         <dep>20</dep>
         <salario>2000.0</salario>
     </empleado>
-</Empleados>
+</EmpleadosDOM>

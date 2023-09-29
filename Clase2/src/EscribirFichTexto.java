@@ -3,9 +3,9 @@ public class EscribirFichTexto {
     public static void main(String[] args) throws IOException {
 
         //1.- Declarar fichero
-        File fichero = new File("//Users//jokin//Documents//Egibide//AD//FichTexto.txt");
+        File fichero = new File("Clase2/src/FichTexto.txt");
         //2.- Crear el flujo de salida
-        FileWriter fic = new FileWriter(fichero,true);
+        FileWriter fic = new FileWriter(fichero, true);
         //3.- Creamos cadena que escribiremos en el fichero "FichTexto.txt"
         String cadena ="Esto es una prueba con FileWriter";
         //4.- En este caso iremos escribiendo carácter a carácter
@@ -16,7 +16,6 @@ public class EscribirFichTexto {
             fic.write(cad[i]);  //se va escribiendo un carácter
 
         }
-        fic.write(cadena);
         //fic.write('H');
         fic.append('*'); //añadir al final un * --> así comprobamos que funciona append (no es necesario)
 

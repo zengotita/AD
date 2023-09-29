@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/AD_Repo.iml" filepath="$PROJECT_DIR$/.idea/AD_Repo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Clase1/Clase1.iml" filepath="$PROJECT_DIR$/Clase1/Clase1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Clase2/Clase2.iml" filepath="$PROJECT_DIR$/Clase2/Clase2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Clase3/Clase3.iml" filepath="$PROJECT_DIR$/Clase3/Clase3.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Clase4/Clase4.iml" filepath="$PROJECT_DIR$/Clase4/Clase4.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Clase4_Ejemplos/Clase4_Ejemplos.iml" filepath="$PROJECT_DIR$/Clase4_Ejemplos/Clase4_Ejemplos.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Clase5/Clase5.iml" filepath="$PROJECT_DIR$/Clase5/Clase5.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Clase5_Libros/Clase5_Libros.iml" filepath="$PROJECT_DIR$/Clase5_Libros/Clase5_Libros.iml" />
+      <module fileurl="file://$PROJECT_DIR$/DiasDeFutbol/DiasDeFutbol.iml" filepath="$PROJECT_DIR$/DiasDeFutbol/DiasDeFutbol.iml" />
+      <module fileurl="file://$PROJECT_DIR$/FicherosAleatorios/FicherosAleatorios.iml" filepath="$PROJECT_DIR$/FicherosAleatorios/FicherosAleatorios.iml" />
+      <module fileurl="file://$PROJECT_DIR$/FicherosBinarios/FicherosBinarios.iml" filepath="$PROJECT_DIR$/FicherosBinarios/FicherosBinarios.iml" />
+      <module fileurl="file://$PROJECT_DIR$/FicherosTexto/FicherosTexto.iml" filepath="$PROJECT_DIR$/FicherosTexto/FicherosTexto.iml" />
+      <module fileurl="file://$PROJECT_DIR$/FicherosXML/FicherosXML.iml" filepath="$PROJECT_DIR$/FicherosXML/FicherosXML.iml" />
+    </modules>
+  </component>
+</project>

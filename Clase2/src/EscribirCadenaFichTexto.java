@@ -4,7 +4,7 @@ public class EscribirCadenaFichTexto {
     public static void main(String[] args) throws IOException {
 
         //1. Declarar fichero
-        File fichero = new File("//Users//jokin//Documents//Egibide//AD//FichTextoCadenas.txt");
+        File fichero = new File("Clase2/src/FichTextoCadenas.txt");
         //2. Crear el flujo de salida
         FileWriter fic = new FileWriter(fichero);
         //3. Creamos cadena que escribiremos en el fichero "FichTexto.txt"

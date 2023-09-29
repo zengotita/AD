@@ -6,7 +6,7 @@ public class LeerFichTexto3 {
             //Directorio Windows
             //BufferedReader fichero = new File("C:\\Users\\Hezitzaile\\Desktop\\prueba2.txt");
             //Directorio OSX
-            File fichero = new File("//Users//jokin//Documents//Egibide//AD//Prueba2.txt");
+            File fichero = new File("Clase1/src/Prueba.txt");
             FileReader fic = new FileReader(fichero); //crear el flujo de entrada
             BufferedReader fb = new BufferedReader(fic);
 

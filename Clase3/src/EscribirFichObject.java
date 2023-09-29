@@ -4,7 +4,7 @@ public class EscribirFichObject {
     public static void main(String[] args) throws IOException {
         ///////// 1 \\\\\\\\\\
         //Objeto File
-        File fichero = new File(".\\ficheros\\FichPersona.dat");
+        File fichero = new File("./Clase3/ficheros/FichPersona.dat");
         //Flujo de salida
         FileOutputStream fileout = new FileOutputStream(fichero);
         //Conecta el flujo de bytes al flujo de datos
@@ -13,7 +13,6 @@ public class EscribirFichObject {
         ///////// 2 \\\\\\\\\\
         String nombres[] = {"Ana", "Luis", "Alicia", "Pablo", "Manuel", "Silvia", "Sara", "Markel", "Nora"};
         int edades[] = {15, 16, 17, 16, 14, 15, 17, 18, 14};
-
         ///////// 3 \\\\\\\\\\
         //Recorremos cualquiera de los dos arrays, ya que tienen la misma longitud
         //Por cada iteración creamos un objeto de la clase Persona

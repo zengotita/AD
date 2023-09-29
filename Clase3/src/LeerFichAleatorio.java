@@ -3,7 +3,7 @@ import java.io.*;
 public class LeerFichAleatorio {
     public static void main (String[] args) throws IOException {
 
-        File fichero = new File(".\\ficheros\\AleatorioEmple.dat");
+        File fichero = new File("./Clase3/ficheros/AleatorioEmple.dat");
         //Declaramos el fichero de acceso aleatorio
         RandomAccessFile file = new RandomAccessFile(fichero, "r");
 
@@ -11,6 +11,7 @@ public class LeerFichAleatorio {
         int id, departamento, posicion;
         double salario;
         char apellido[] = new char[10];
+
 
         posicion = 0; //Nos situamos al principio para recorrer el fichero
 

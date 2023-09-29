@@ -5,7 +5,7 @@ public class LeerFichTexto {
         //Directorio Windows
         //File fichero = new File("C:\\Users\\Hezitzaile\\Desktop\\prueba.txt");
         //Directorio OSX
-        File fichero = new File("//Users//jokin//Documents//Egibide//AD//Prueba.txt");
+        File fichero = new File("Clase1/src/Prueba.txt");
         //declarar fichero
         FileReader fic = new FileReader(fichero); //crear el flujo de entrada
         int i;
