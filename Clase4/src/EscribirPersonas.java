@@ -1,10 +1,11 @@
 import java.io.*;
 import com.thoughtworks.xstream.XStream;
 
+
 public class EscribirPersonas {
     public static void main(String[] args)  throws IOException ,   ClassNotFoundException {
         //Objeto file
-        File fichero = new File(".\\ficheros\\FichPersona.dat");
+        File fichero = new File("./Clase4/ficheros/FichPersona.dat");
         //Crea el flujo de entrada
         FileInputStream filein = new FileInputStream(fichero);
         //Conecta el flujo de bytes al flujo de datos
@@ -27,12 +28,12 @@ public class EscribirPersonas {
         try {
             XStream xstream = new XStream();
             //Cambiamos de nombre a las etiquetas XML de los objetos que usamos
-            xstream.alias("ListaPersonasMunicipio", ListaPersonas.class);
-            xstream.alias("DatosPersona", Persona.class);
+            //xstream.alias("ListaPersonasMunicipio", ListaPersonas.class);
+            //xstream.alias("DatosPersona", Persona.class);
             //Quitamos etiqueta lista (atributo de la clase ListaPersonas)
-            xstream.addImplicitCollection(ListaPersonas.class, "lista");
+            //xstream.addImplicitCollection(ListaPersonas.class, "lista");
             //Insertamos los objetos en el XML
-            xstream.toXML(listaper, new FileOutputStream(".\\ficheros\\Personas.xml"));
+            xstream.toXML(listaper, new FileOutputStream("./Clase4/ficheros/Personas.xml"));
             System.out.println("Creado fichero XML....");
         }catch (Exception e)
         {e.printStackTrace();}

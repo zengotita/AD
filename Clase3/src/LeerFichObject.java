@@ -4,7 +4,7 @@ public class LeerFichObject {
     public static void main(String[] args) throws IOException, ClassNotFoundException {
         ///////// 1 \\\\\\\\\\
         //Objeto File
-        File fichero = new File(".//ficheros//FichPersona.dat");
+        File fichero = new File("./Clase3/ficheros/FichPersona.dat");
         //Flujo de entrada
         FileInputStream filein = new FileInputStream(fichero);
         //Conecta el flujo de bytes al flujo de datos

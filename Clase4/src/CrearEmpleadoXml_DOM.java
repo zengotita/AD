@@ -7,7 +7,7 @@ import java.io.*;
 
 public class CrearEmpleadoXml_DOM {
     public static void main(String argv[]) throws IOException{
-        File fichero = new File(".\\ficheros\\AleatorioEmple.dat");
+        File fichero = new File("./Clase4/ficheros/AleatorioEmple.dat");
         RandomAccessFile file = new RandomAccessFile(fichero, "r");
 
         int  id, dep, posicion=0; //para situarnos al principio del fichero
@@ -47,7 +47,7 @@ public class CrearEmpleadoXml_DOM {
             }//del for que recorre el fichero
 
             Source source = new DOMSource(document);
-            Result result = new StreamResult(new java.io.File(".\\ficheros\\Empleados.xml"));
+            Result result = new StreamResult(new java.io.File("./Clase4/ficheros/Empleados.xml"));
             Transformer transformer = TransformerFactory.newInstance().newTransformer();
             transformer.transform(source, result);
             Result console= new StreamResult(System.out);
